@@ -13,12 +13,6 @@
 }
 
 @font-face {
-  font-family: "PangMenZhengDaoCuShuTi";
-  src: url("PangMenZhengDaoCuShuTi.ttf");
-  font-display: swap;
-}
-
-@font-face {
   font-family: "FZJLJW";
   src: url("FZJLJW.ttf");
   font-display: swap;
