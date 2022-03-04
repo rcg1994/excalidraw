@@ -108,7 +108,8 @@ export const JSONExportDialog = ({
     <>
       <ToolButton
         onClick={() => {
-          setModalIsShown(true);
+          // setModalIsShown(true);
+          actionManager.executeAction(actionSaveFileToDisk);
         }}
         data-testid="json-export-button"
         icon={exportFile}

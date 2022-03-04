@@ -539,25 +539,25 @@ export const actionChangeFontSize = register({
         group="font-size"
         options={[
           {
-            value: 16,
+            value: 20,
             text: t("labels.small"),
             icon: <FontSizeSmallIcon theme={appState.theme} />,
             testId: "fontSize-small",
           },
           {
-            value: 20,
+            value: 24,
             text: t("labels.medium"),
             icon: <FontSizeMediumIcon theme={appState.theme} />,
             testId: "fontSize-medium",
           },
           {
-            value: 28,
+            value: 32,
             text: t("labels.large"),
             icon: <FontSizeLargeIcon theme={appState.theme} />,
             testId: "fontSize-large",
           },
           {
-            value: 36,
+            value: 40,
             text: t("labels.veryLarge"),
             icon: <FontSizeExtraLargeIcon theme={appState.theme} />,
             testId: "fontSize-veryLarge",

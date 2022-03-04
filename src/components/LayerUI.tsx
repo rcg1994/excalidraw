@@ -13,7 +13,7 @@ import { AppProps, AppState, ExcalidrawProps, BinaryFiles } from "../types";
 import { muteFSAbortError } from "../utils";
 import { SelectedShapeActions, ShapesSwitcher, ZoomActions } from "./Actions";
 import { BackgroundPickerAndDarkModeToggle } from "./BackgroundPickerAndDarkModeToggle";
-import CollabButton from "./CollabButton";
+// import CollabButton from "./CollabButton";
 import { ErrorDialog } from "./ErrorDialog";
 import { ExportCB, ImageExportDialog } from "./ImageExportDialog";
 import { FixedSideContainer } from "./FixedSideContainer";
@@ -205,13 +205,13 @@ const LayerUI = ({
             {renderJSONExportDialog()}
             {renderImageExportDialog()}
             <Separator />
-            {onCollabButtonClick && (
+            {/* {onCollabButtonClick && (
               <CollabButton
                 isCollaborating={isCollaborating}
                 collaboratorCount={appState.collaborators.size}
                 onClick={onCollabButtonClick}
               />
-            )}
+            )} */}
           </Stack.Row>
           <BackgroundPickerAndDarkModeToggle
             actionManager={actionManager}

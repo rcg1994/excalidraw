@@ -73,7 +73,9 @@
       }
     }
 
-    .layer-ui__wrapper__footer-center {
+    .layer-ui__wrapper__footer-center,
+    .layer-ui__wrapper__footer-right {
+      display: none;
       pointer-events: none;
       & > * {
         pointer-events: all;
